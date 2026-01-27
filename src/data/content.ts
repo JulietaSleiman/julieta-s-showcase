@@ -84,10 +84,19 @@ export const content = {
         title: "Educación",
         items: [
           {
-            title: "Ingeniería",
-            institution: "Universidad",
-            period: "2020 - Presente",
-            description: "Cursando 5to año de la carrera. Enfoque en desarrollo de software y sistemas.",
+            title: "Ingeniería en Sistemas de Información",
+            institution:
+              "Universidad Tecnológica Nacional - Facultad Regional Tucumán (UTN FRT)",
+            period: "2020 - Actualidad",
+            description:
+              "Estudiante de 5º año de Ingeniería en Sistemas de Información, con énfasis en desarrollo de software, sistemas de información y trabajo en equipo.",
+          },
+          {
+            title: "Bachiller con orientación en Ciencias Naturales",
+            institution: "Instituto Vocacional Concepción",
+            period: "2016 - 2021",
+            description:
+              "Formación secundaria con enfoque en ciencias naturales, que aportó bases sólidas en pensamiento lógico y análisis.",
           },
         ],
       },
@@ -95,16 +104,11 @@ export const content = {
         title: "Cursos & Certificaciones",
         items: [
           {
-            title: "Desarrollo Web Frontend",
-            institution: "Plataforma de cursos",
-            period: "2023",
-            description: "Fundamentos de React, JavaScript moderno y buenas prácticas de desarrollo.",
-          },
-          {
-            title: "Diseño UX/UI",
-            institution: "Plataforma de cursos",
-            period: "2023",
-            description: "Principios de diseño centrado en el usuario y prototipado.",
+            title: "Desarrollo de Videojuegos",
+            institution: "UTN FRT",
+            period: "2025",
+            description:
+              "Curso orientado al diseño y desarrollo de videojuegos, combinando lógica de programación, creatividad y trabajo con herramientas específicas del área.",
           },
         ],
       },
@@ -216,10 +220,19 @@ export const content = {
         title: "Education",
         items: [
           {
-            title: "Engineering",
-            institution: "University",
+            title: "Information Systems Engineering",
+            institution:
+              "National Technological University - Tucumán Regional Faculty (UTN FRT)",
             period: "2020 - Present",
-            description: "Currently in 5th year. Focus on software development and systems.",
+            description:
+              "5th-year student of Information Systems Engineering, focused on software development, information systems and teamwork.",
+          },
+          {
+            title: "High School Diploma in Natural Sciences",
+            institution: "Instituto Vocacional Concepción",
+            period: "2016 - 2021",
+            description:
+              "Secondary education with a focus on natural sciences, building a strong foundation in logical thinking and analysis.",
           },
         ],
       },
@@ -227,16 +240,11 @@ export const content = {
         title: "Courses & Certifications",
         items: [
           {
-            title: "Frontend Web Development",
-            institution: "Online Platform",
-            period: "2023",
-            description: "React fundamentals, modern JavaScript, and development best practices.",
-          },
-          {
-            title: "UX/UI Design",
-            institution: "Online Platform",
-            period: "2023",
-            description: "User-centered design principles and prototyping.",
+            title: "Video Game Development",
+            institution: "UTN FRT",
+            period: "2025",
+            description:
+              "Course focused on the design and development of video games, combining programming logic, creativity and specialized tools.",
           },
         ],
       },
