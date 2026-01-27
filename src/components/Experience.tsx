@@ -3,6 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Section, SectionTitle } from "@/components/ui/Section";
 import { Card, CardTitle, CardDescription } from "@/components/ui/CustomCard";
 import { GraduationCap, Award } from "lucide-react";
+import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 export const Experience = () => {
   const { t } = useLanguage();
@@ -10,12 +11,16 @@ export const Experience = () => {
   return (
     <Section id="experience" className="bg-muted/30">
       <div className="text-center mb-12">
-        <SectionTitle className="inline-block">{t.experience.title}</SectionTitle>
+        <RevealOnScroll>
+          <SectionTitle className="inline-block">
+            {t.experience.title}
+          </SectionTitle>
+        </RevealOnScroll>
       </div>
 
       <div className="grid lg:grid-cols-2 gap-8">
         {/* Education */}
-        <div className="animate-fade-in-up">
+        <RevealOnScroll>
           <div className="flex items-center gap-3 mb-6">
             <div className="p-2 rounded-lg bg-primary/10 text-primary">
               <GraduationCap className="w-6 h-6" />
@@ -47,10 +52,10 @@ export const Experience = () => {
               </div>
             ))}
           </div>
-        </div>
+        </RevealOnScroll>
 
         {/* Courses & Certifications */}
-        <div className="animate-fade-in-up animation-delay-100">
+        <RevealOnScroll>
           <div className="flex items-center gap-3 mb-6">
             <div className="p-2 rounded-lg bg-accent/20 text-accent-foreground">
               <Award className="w-6 h-6" />
@@ -82,7 +87,7 @@ export const Experience = () => {
               </div>
             ))}
           </div>
-        </div>
+        </RevealOnScroll>
       </div>
     </Section>
   );
