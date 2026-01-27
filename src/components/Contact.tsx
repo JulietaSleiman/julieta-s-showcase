@@ -9,6 +9,12 @@ import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 export const Contact = () => {
   const { t } = useLanguage();
 
+  // Número de WhatsApp en formato internacional sin "+" ni espacios
+  const whatsappNumber = "543865746167";
+  const whatsappMessage = encodeURIComponent(
+    "Hola Julieta, vi tu portfolio y me gustaría ponerme en contacto con vos."
+  );
+
   const contactMethods = [
     {
       icon: Mail,
@@ -70,9 +76,10 @@ export const Contact = () => {
 
         <RevealOnScroll className="text-center">
           <LinkButton
-            href={`mailto:${t.contact.email.value}`}
+            href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
             variant="primary"
             size="lg"
+            external
           >
             <Send className="w-5 h-5" />
             {t.contact.cta}
