@@ -1,6 +1,6 @@
 import React from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Linkedin, Github, Mail, Heart } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -51,11 +51,8 @@ export const Footer = () => {
             })}
           </div>
 
-          {/* Made With */}
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            {t.footer.madeWith.replace("❤️", "")}
-            <Heart className="w-4 h-4 text-primary fill-primary" />
-          </p>
+          {/* Spacer / empty right side */}
+          <div className="h-5" />
         </div>
       </div>
     </footer>
