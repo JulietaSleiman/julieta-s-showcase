@@ -87,9 +87,9 @@ export const content = {
             title: "Ingeniería en Sistemas de Información",
             institution:
               "Universidad Tecnológica Nacional - Facultad Regional Tucumán (UTN FRT)",
-            period: "2020 - Actualidad",
+            period: "2022 - Actualidad",
             description:
-              "Estudiante de 5º año de Ingeniería en Sistemas de Información, con énfasis en desarrollo de software, sistemas de información y trabajo en equipo.",
+              "Carrera orientada al diseño, desarrollo y gestión de sistemas de información, integrando conocimientos de programación, bases de datos, análisis de sistemas y organización empresarial.",
           },
           {
             title: "Bachiller con orientación en Ciencias Naturales",
@@ -223,9 +223,9 @@ export const content = {
             title: "Information Systems Engineering",
             institution:
               "National Technological University - Tucumán Regional Faculty (UTN FRT)",
-            period: "2020 - Present",
+            period: "2022 - Present",
             description:
-              "5th-year student of Information Systems Engineering, focused on software development, information systems and teamwork.",
+              "Degree focused on the design, development and management of information systems, combining programming, databases, systems analysis and organizational processes.",
           },
           {
             title: "High School Diploma in Natural Sciences",
