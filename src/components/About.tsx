@@ -15,6 +15,17 @@ export const About = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
         <RevealOnScroll>
+          {/* Photo Space - Add your image here */}
+          <div className="mb-8 flex justify-center lg:justify-start">
+            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 bg-muted">
+              <img
+                src="/tu-foto.jpg"
+                alt="Julieta Sleiman"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          
           <SectionTitle>{t.about.title}</SectionTitle>
           <p className="text-lg text-muted-foreground leading-relaxed">
             {t.about.description}

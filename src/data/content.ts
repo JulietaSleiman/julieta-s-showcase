@@ -41,15 +41,23 @@ export const content = {
       categories: [
         {
           name: "Frontend",
+          description: "Desarrollo de interfaces de usuario modernas y responsivas con tecnologías actuales.",
           skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js"],
         },
         {
+          name: "Backend",
+          description: "Conocimientos en desarrollo de servidores y lógica de negocio.",
+          skills: ["Java", "C++", "MySQL", "Node.js"],
+        },
+        {
           name: "Herramientas",
-          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm"],
+          description: "Herramientas y plataformas que utilizo para desarrollar y gestionar proyectos.",
+          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "Microsoft Office", "Canva"],
         },
         {
           name: "Soft Skills",
-          skills: ["Trabajo en equipo", "Comunicación", "Resolución de problemas", "Organización", "Autodidacta"],
+          description: "Habilidades interpersonales y metodologías de trabajo que aplico en equipo.",
+          skills: ["Trabajo en equipo", "Comunicación", "Resolución de problemas", "Organización", "Autodidacta", "Scrum", "XP"],
         },
       ],
     },
@@ -177,15 +185,23 @@ export const content = {
       categories: [
         {
           name: "Frontend",
+          description: "Development of modern and responsive user interfaces with current technologies.",
           skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js"],
         },
         {
+          name: "Backend",
+          description: "Knowledge in server development and business logic.",
+          skills: ["Java", "C++", "MySQL", "Node.js"],
+        },
+        {
           name: "Tools",
-          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm"],
+          description: "Tools and platforms I use to develop and manage projects.",
+          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "Microsoft Office", "Canva"],
         },
         {
           name: "Soft Skills",
-          skills: ["Teamwork", "Communication", "Problem Solving", "Organization", "Self-taught"],
+          description: "Interpersonal skills and work methodologies I apply in teams.",
+          skills: ["Teamwork", "Communication", "Problem Solving", "Organization", "Self-taught", "Scrum", "XP"],
         },
       ],
     },

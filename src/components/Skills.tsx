@@ -3,10 +3,10 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Section, SectionTitle } from "@/components/ui/Section";
 import { Badge } from "@/components/ui/CustomBadge";
 import { Card, CardTitle } from "@/components/ui/CustomCard";
-import { Code, Wrench, Users } from "lucide-react";
+import { Code, Wrench, Users, Server } from "lucide-react";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
-const categoryIcons = [Code, Wrench, Users];
+const categoryIcons = [Code, Server, Wrench, Users];
 
 export const Skills = () => {
   const { t } = useLanguage();
@@ -19,7 +19,7 @@ export const Skills = () => {
         </RevealOnScroll>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {t.skills.categories.map((category, index) => {
           const Icon = categoryIcons[index];
           return (
@@ -29,12 +29,18 @@ export const Skills = () => {
                   { animationDelay: `${index * 100}ms` } as React.CSSProperties
                 }
               >
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 rounded-lg bg-primary/10 text-primary">
                     <Icon className="w-5 h-5" />
                   </div>
                   <CardTitle className="mb-0">{category.name}</CardTitle>
                 </div>
+                
+                {category.description && (
+                  <p className="text-sm text-muted-foreground mb-4">
+                    {category.description}
+                  </p>
+                )}
                 
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
