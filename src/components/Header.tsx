@@ -62,7 +62,7 @@ export const Header = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold gradient-text-animated focus-ring rounded-lg px-2 py-1 hover:scale-105 transition-transform duration-300"
+            className="text-2xl font-bold gradient-text focus-ring rounded-lg px-2 py-1 hover:scale-105 transition-transform duration-300"
           >
             Julieta
           </button>

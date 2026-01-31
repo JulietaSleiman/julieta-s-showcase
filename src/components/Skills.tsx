@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/CustomBadge";
 import { Card, CardTitle } from "@/components/ui/CustomCard";
 import { Code, Wrench, Users, Server } from "lucide-react";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
+import { SkillsCarousel } from "@/components/ui/SkillsCarousel";
 
 const categoryIcons = [Code, Server, Wrench, Users];
 
@@ -18,6 +19,11 @@ export const Skills = () => {
           <SectionTitle className="inline-block">{t.skills.title}</SectionTitle>
         </RevealOnScroll>
       </div>
+
+      {/* Skills Carousel */}
+      <RevealOnScroll>
+        <SkillsCarousel />
+      </RevealOnScroll>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {t.skills.categories.map((category, index) => {
