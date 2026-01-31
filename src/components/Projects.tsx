@@ -4,12 +4,7 @@ import { Section, SectionTitle, SectionSubtitle } from "@/components/ui/Section"
 import { Card, CardTitle, CardDescription } from "@/components/ui/CustomCard";
 import { LinkButton } from "@/components/ui/CustomButton";
 import { Badge } from "@/components/ui/CustomBadge";
-import { ExternalLink, Code, Lock } from "lucide-react";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { ExternalLink } from "lucide-react";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 export const Projects = () => {
@@ -93,41 +88,11 @@ export const Projects = () => {
                   variant="primary"
                   size="sm"
                   external
-                  className="flex-1"
+                  className="w-full"
                 >
                   <ExternalLink className="w-4 h-4" />
                   {t.projects.buttons.demo}
                 </LinkButton>
-
-                {project.code ? (
-                  <LinkButton
-                    href={project.code}
-                    variant="outline"
-                    size="sm"
-                    external
-                    className="flex-1"
-                  >
-                    <Code className="w-4 h-4" />
-                    {t.projects.buttons.code}
-                  </LinkButton>
-                ) : (
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <span className="flex-1">
-                        <button
-                          disabled
-                          className="w-full inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-medium rounded-lg border-2 border-muted text-muted-foreground opacity-60 cursor-not-allowed"
-                        >
-                          <Lock className="w-4 h-4" />
-                          {t.projects.buttons.code}
-                        </button>
-                      </span>
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>{t.projects.buttons.comingSoon}</p>
-                    </TooltipContent>
-                  </Tooltip>
-                )}
               </div>
             </Card>
           </RevealOnScroll>
