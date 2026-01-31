@@ -71,6 +71,7 @@ export const content = {
           stack: ["React", "Tailwind CSS", "Vercel"],
           demo: "https://albina-ecommerce.vercel.app",
           code: null,
+          image: "/AlbinaLogo.jpeg",
         },
         {
           title: "Camily Bakes",
@@ -78,6 +79,7 @@ export const content = {
           stack: ["React", "CSS", "Vercel"],
           demo: "https://camilybakes.vercel.app",
           code: null,
+          image: "/Camilybakeslogo.jpeg",
         },
       ],
       buttons: {
@@ -215,6 +217,7 @@ export const content = {
           stack: ["React", "Tailwind CSS", "Vercel"],
           demo: "https://albina-ecommerce.vercel.app",
           code: null,
+          image: "/AlbinaLogo.jpeg",
         },
         {
           title: "Camily Bakes",
@@ -222,6 +225,7 @@ export const content = {
           stack: ["React", "CSS", "Vercel"],
           demo: "https://camilybakes.vercel.app",
           code: null,
+          image: "/Camilybakeslogo.jpeg",
         },
       ],
       buttons: {
