@@ -14,7 +14,8 @@ export const Card = ({ children, className, hover = true, style }: CardProps) =>
       className={cn(
         "rounded-xl p-6 glass",
         "border border-border/50",
-        hover && "hover-lift",
+        "transition-all duration-300 ease-out",
+        hover && "hover-lift card-glow",
         className
       )}
       style={style}

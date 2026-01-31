@@ -36,12 +36,13 @@ export const Projects = () => {
               }
             >
               {/* Project Preview Placeholder */}
-              <div className="relative aspect-video rounded-lg mb-6 overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
+              <div className="relative aspect-video rounded-lg mb-6 overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 group cursor-pointer transition-all duration-500 hover:from-primary/30 hover:to-accent/30">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl font-bold gradient-text opacity-50">
+                  <span className="text-4xl font-bold gradient-text opacity-50 group-hover:opacity-70 transition-opacity duration-300">
                     {project.title[0]}
                   </span>
                 </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
 
               <CardTitle className="text-xl">{project.title}</CardTitle>

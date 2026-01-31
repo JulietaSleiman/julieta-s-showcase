@@ -59,10 +59,10 @@ export const Contact = () => {
                   target={method.external ? "_blank" : undefined}
                   rel={method.external ? "noopener noreferrer" : undefined}
                 >
-                  <Card className="text-center h-full group-hover:border-primary/50 transition-colors">
-                    <div className="inline-flex p-3 rounded-full bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform">
-                      <Icon className="w-6 h-6" />
-                    </div>
+                <Card className="text-center h-full group-hover:border-primary/50 transition-all duration-300 hover-glow">
+                  <div className="inline-flex p-3 rounded-full bg-primary/10 text-primary mb-4 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
+                    <Icon className="w-6 h-6" />
+                  </div>
                     <CardTitle className="text-lg mb-1">{method.label}</CardTitle>
                     <p className="text-sm text-muted-foreground break-all">
                       {method.value}

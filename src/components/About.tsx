@@ -26,7 +26,7 @@ export const About = () => {
             </div>
           </div>
           
-          <SectionTitle>{t.about.title}</SectionTitle>
+          <SectionTitle className="gradient-text">{t.about.title}</SectionTitle>
           <p className="text-lg text-muted-foreground leading-relaxed">
             {t.about.description}
           </p>
@@ -47,7 +47,7 @@ export const About = () => {
                   }
                 >
                   <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-lg bg-primary/10 text-primary">
+                    <div className="p-3 rounded-lg bg-primary/10 text-primary transition-all duration-300 hover:bg-primary/20 hover:scale-110 hover:rotate-3">
                       <Icon className="w-6 h-6" />
                     </div>
                     <div>

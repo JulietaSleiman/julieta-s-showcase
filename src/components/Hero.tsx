@@ -24,12 +24,18 @@ export const Hero = () => {
           {t.hero.greeting}
         </p>
         
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in-up animation-delay-100">
-          <span className="gradient-text">{t.hero.name}</span>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in-up animation-delay-100 text-shadow-lg">
+          <span className="gradient-text-animated">{t.hero.name}</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-foreground/80 mb-6 animate-fade-in-up animation-delay-200">
+        <p className="text-xl md:text-2xl text-foreground/80 mb-4 animate-fade-in-up animation-delay-200">
           {t.hero.role}
+        </p>
+        
+        <p className="text-base md:text-lg text-muted-foreground mb-6 animate-fade-in-up animation-delay-250 flex items-center justify-center gap-2">
+          <span className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium hover:bg-primary/20 hover:scale-105 transition-all duration-300 shadow-sm hover:shadow-md">
+            📍 Concepción, Tucumán
+          </span>
         </p>
         
         <p className="max-w-2xl mx-auto text-base md:text-lg text-muted-foreground mb-10 animate-fade-in-up animation-delay-300">

@@ -30,7 +30,7 @@ export const SectionTitle = ({
 }) => {
   return (
     <h2 className={cn(
-      "text-3xl md:text-4xl font-bold mb-4 gradient-text",
+      "text-3xl md:text-4xl font-bold mb-4 gradient-text text-shadow",
       className
     )}>
       {children}

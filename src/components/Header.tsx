@@ -54,7 +54,7 @@ export const Header = () => {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "glass py-3" : "py-5"
+        isScrolled ? "glass-strong py-3 shadow-lg" : "py-5"
       )}
     >
       <div className="section-container">
@@ -62,7 +62,7 @@ export const Header = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold gradient-text focus-ring rounded-lg px-2 py-1"
+            className="text-2xl font-bold gradient-text-animated focus-ring rounded-lg px-2 py-1 hover:scale-105 transition-transform duration-300"
           >
             Julieta
           </button>

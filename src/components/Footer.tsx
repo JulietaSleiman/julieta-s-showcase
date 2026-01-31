@@ -24,7 +24,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="py-8 border-t border-border/50">
+    <footer className="py-8 border-t border-border/50 bg-gradient-to-t from-muted/30 to-transparent">
       <div className="section-container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
@@ -42,7 +42,7 @@ export const Footer = () => {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-muted transition-all duration-200 focus-ring"
+                  className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-muted transition-all duration-300 hover:scale-110 hover:rotate-3 hover:shadow-lg hover:shadow-primary/20 focus-ring"
                   aria-label={link.label}
                 >
                   <Icon className="w-5 h-5" />

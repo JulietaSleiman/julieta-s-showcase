@@ -22,10 +22,10 @@ export const Experience = () => {
         {/* Education */}
         <RevealOnScroll>
           <div className="flex items-center gap-3 mb-6">
-            <div className="p-2 rounded-lg bg-primary/10 text-primary">
+            <div className="p-2 rounded-lg bg-primary/10 text-primary transition-all duration-300 hover:bg-primary/20 hover:scale-110 hover:rotate-3">
               <GraduationCap className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold">{t.experience.education.title}</h3>
+            <h3 className="text-xl font-semibold gradient-text">{t.experience.education.title}</h3>
           </div>
 
           <div className="relative pl-6 border-l-2 border-primary/30">
@@ -35,9 +35,9 @@ export const Experience = () => {
                 className="relative mb-8 last:mb-0"
               >
                 {/* Timeline Dot */}
-                <div className="absolute -left-[calc(0.75rem+1px)] top-1 w-3 h-3 rounded-full bg-primary" />
+                <div className="absolute -left-[calc(0.75rem+1px)] top-1 w-3 h-3 rounded-full bg-primary shadow-lg shadow-primary/50 animate-pulse" />
                 
-                <Card className="ml-4">
+                <Card className="ml-4 transition-all duration-300 hover:border-primary/50">
                   <div className="flex items-center justify-between mb-2">
                     <CardTitle className="text-lg mb-0">{item.title}</CardTitle>
                     <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
@@ -57,10 +57,10 @@ export const Experience = () => {
         {/* Courses & Certifications */}
         <RevealOnScroll>
           <div className="flex items-center gap-3 mb-6">
-            <div className="p-2 rounded-lg bg-accent/20 text-accent-foreground">
+            <div className="p-2 rounded-lg bg-accent/20 text-accent-foreground transition-all duration-300 hover:bg-accent/30 hover:scale-110 hover:rotate-3">
               <Award className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold">{t.experience.courses.title}</h3>
+            <h3 className="text-xl font-semibold gradient-text">{t.experience.courses.title}</h3>
           </div>
 
           <div className="relative pl-6 border-l-2 border-accent/30">
@@ -70,9 +70,9 @@ export const Experience = () => {
                 className="relative mb-8 last:mb-0"
               >
                 {/* Timeline Dot */}
-                <div className="absolute -left-[calc(0.75rem+1px)] top-1 w-3 h-3 rounded-full bg-accent" />
+                <div className="absolute -left-[calc(0.75rem+1px)] top-1 w-3 h-3 rounded-full bg-accent shadow-lg shadow-accent/50 animate-pulse" />
                 
-                <Card className="ml-4">
+                <Card className="ml-4 transition-all duration-300 hover:border-accent/50">
                   <div className="flex items-center justify-between mb-2">
                     <CardTitle className="text-lg mb-0">{item.title}</CardTitle>
                     <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">

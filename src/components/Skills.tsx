@@ -30,7 +30,7 @@ export const Skills = () => {
                 }
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                  <div className="p-2 rounded-lg bg-primary/10 text-primary transition-all duration-300 hover:bg-primary/20 hover:scale-110">
                     <Icon className="w-5 h-5" />
                   </div>
                   <CardTitle className="mb-0">{category.name}</CardTitle>
