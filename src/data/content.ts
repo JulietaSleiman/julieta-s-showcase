@@ -52,7 +52,7 @@ export const content = {
         {
           name: "Herramientas",
           description: "Herramientas y plataformas que utilizo para desarrollar y gestionar proyectos.",
-          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "Microsoft Office", "Canva"],
+          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "n8n", "Microsoft Office", "Canva"],
         },
         {
           name: "Soft Skills",
@@ -205,7 +205,7 @@ export const content = {
         {
           name: "Tools",
           description: "Tools and platforms I use to develop and manage projects.",
-          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "Microsoft Office", "Canva"],
+          skills: ["Git", "GitHub", "VS Code", "Figma", "Vercel", "npm", "n8n", "Microsoft Office", "Canva"],
         },
         {
           name: "Soft Skills",
