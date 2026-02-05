@@ -82,13 +82,13 @@ export const Projects = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex gap-3">
+              <div className="flex gap-3 relative z-10 mt-auto">
                 <LinkButton
                   href={project.demo}
                   variant="primary"
                   size="sm"
                   external
-                  className="w-full"
+                  className="w-full relative z-10"
                 >
                   <ExternalLink className="w-4 h-4" />
                   {t.projects.buttons.demo}
