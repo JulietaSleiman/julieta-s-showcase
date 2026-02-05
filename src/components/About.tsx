@@ -17,9 +17,9 @@ export const About = () => {
         <RevealOnScroll>
           {/* Photo Space - Add your image here */}
           <div className="mb-8 flex justify-center lg:justify-start">
-            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 bg-muted">
+            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 bg-muted shadow-lg hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105">
               <img
-                src="/tu-foto.jpg"
+                src="/FotoJulieta.png"
                 alt="Julieta Sleiman"
                 className="w-full h-full object-cover"
               />

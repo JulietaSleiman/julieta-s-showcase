@@ -114,6 +114,13 @@ export const content = {
         title: "Cursos & Certificaciones",
         items: [
           {
+            title: "Curso n8n. Crea Agentes de IA Sin Programar",
+            institution: "Udemy - Ivan AlsiGo",
+            period: "2026",
+            description:
+              "Curso completo sobre n8n para crear agentes de inteligencia artificial sin necesidad de programar. Aprendizaje de automatización y flujos de trabajo con IA.",
+          },
+          {
             title: "Desarrollo de Videojuegos",
             institution: "UTN FRT",
             period: "2025",
@@ -259,6 +266,13 @@ export const content = {
       courses: {
         title: "Courses & Certifications",
         items: [
+          {
+            title: "n8n Course. Create AI Agents Without Programming",
+            institution: "Udemy - Ivan AlsiGo",
+            period: "2026",
+            description:
+              "Complete course on n8n to create artificial intelligence agents without the need to program. Learning automation and AI workflows.",
+          },
           {
             title: "Video Game Development",
             institution: "UTN FRT",
